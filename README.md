@@ -1,6 +1,6 @@
-## 商家管理
+## 动力建站
 
-多商户管理应用
+企业建站功能。实现栏目管理，内容管理，模板管理。
 
 ### 前言
 
@@ -17,11 +17,11 @@
 2、克隆当前项目
 
 ```
-git clone https://github.com/jianyan74/RfMerchants.git
+git clone https://github.com/uutan/KbitCms.git
 ```
 
 3、拷贝进 RageFrame 根目录的 addons 目录下
 
-4、RageFrame 后台进入 系统管理->应用管理->安装插件->找到商家管理进行安装
+4、RageFrame 后台进入 系统管理->应用管理->安装插件->找到动力建站进行安装
 
 5、刷新整个后台页面后进行查看

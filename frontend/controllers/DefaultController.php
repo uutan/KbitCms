@@ -107,7 +107,7 @@ class DefaultController extends BaseController
 
         $data['article'] = $model;
 
-        
+
 
 
         return $this->render('template'.DIRECTORY_SEPARATOR.'article_view',$data);
