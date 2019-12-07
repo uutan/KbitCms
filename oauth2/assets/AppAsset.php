@@ -1,0 +1,28 @@
+<?php
+
+namespace addons\KbitCms\oauth2\assets;
+
+use yii\web\AssetBundle;
+
+/**
+ * 静态资源管理
+ *
+ * Class AppAsset
+ * @package addons\KbitCms\oauth2\assets
+ */
+class AppAsset extends AssetBundle
+{
+    /**
+     * @var string
+     */
+    public $sourcePath = '@addons/KbitCms/oauth2/resources/';
+
+    public $css = [
+    ];
+
+    public $js = [
+    ];
+
+    public $depends = [
+    ];
+}
