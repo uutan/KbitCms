@@ -19,7 +19,6 @@ use common\helpers\Url;
                             'level' => 1,
                         ]) ?>
                     </ul>
-                    <div class="hr-line-dashed"></div>
                 </div>
             <?php } else { ?>
                 <div class="box-header with-border">
@@ -34,6 +33,24 @@ use common\helpers\Url;
         <?php } ?>
     <?php } ?>
 </div>
-
+<div class="box box-solid p-xs rfAddonMenu">
+    <div class="box-header with-border">
+        <h3 class="rf-box-title">
+            组件管理
+        </h3>
+    </div>
+    <div class="box-body no-padding">
+        <ul class="nav nav-pills nav-stacked">
+            <?php foreach($widgets as $item):?>
+            <li class="border-bottom-none">
+                <a href="<?= $item['url'] == '#' ? '' : Url::to($item['url']); ?>">
+                    <i class="<?=$item['icon']?> rf-i"></i>
+                    <?= $item['label']; ?>
+                </a>
+            </li>
+            <?php endforeach;?>
+        </ul>
+    </div>
+</div>
 
 

@@ -14,6 +14,15 @@ return [
         'content/ajax-update' => '内容状态修改',
         'content/delete' => '内容删除',
 
+        'adv/index' => '广告管理',
+        'adv/ajax-edit' => '广告编辑',
+        'adv/ajax-update' => '广告状态修改',
+        'adv/delete' => '广告删除',
+
+        'link/index' => '友链管理',
+        'link/ajax-edit' => '友链编辑',
+        'link/ajax-update' => '友链状态修改',
+        'link/delete' => '友链删除',
 
         'template/index' => '模板管理',
         'template/ajax-edit' => '模板编辑',
@@ -38,12 +47,6 @@ return [
             'icon' => 'fa fa-cube',
             'params' => []
         ],
-        [
-            'title' => '模板管理',
-            'route' => 'template/index',
-            'icon' => 'fa fa-cube',
-            'params' => []
-        ],
     ],
 
     // ----------------------- 菜单配置 ----------------------- //
@@ -62,12 +65,6 @@ return [
         [
             'title' => '内容管理',
             'route' => 'content/index',
-            'icon' => 'fa fa-cube',
-            'params' => []
-        ],
-        [
-            'title' => '模板管理',
-            'route' => 'template/index',
             'icon' => 'fa fa-cube',
             'params' => []
         ],

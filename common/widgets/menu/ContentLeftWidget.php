@@ -28,8 +28,25 @@ class ContentLeftWidget extends Widget
      */
     public function run()
     {
+
+        $widgets = [
+            [
+                'label' => '广告管理',
+                'url' => ['adv/index'],
+                'icon' => 'fa fa-cube',
+            ],
+            [
+                'label' => '友链管理',
+                'url' => ['link/index'],
+                'icon' => 'fa fa-cube',
+            ],
+        ];
+
+
+
         return $this->render('content-left', [
             'menus' => $this->getList(),
+            'widgets' => $widgets,
         ]);
     }
 
