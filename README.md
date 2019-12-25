@@ -31,11 +31,11 @@ git clone https://github.com/uutan/KbitCms.git
 
 - [x] 单页
 - [x] 文章
-- [ ] 产品
-- [ ] 图集
-- [ ] 下载
-- [ ] 招聘
-- [ ] 留言版
+- [x] 产品
+- [x] 图集
+- [x] 下载
+- [x] 招聘
+- [x] 留言版
 
 
 ### 支持企业常用组件
@@ -43,7 +43,7 @@ git clone https://github.com/uutan/KbitCms.git
 
 - [x] 栏目
 - [x] 广告
-- [ ] 友情链接
+- [x] 友情链接
 
 
 ### 模板使用
