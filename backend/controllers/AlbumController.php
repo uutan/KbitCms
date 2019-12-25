@@ -3,19 +3,18 @@
 namespace addons\KbitCms\backend\controllers;
 
 use addons\KbitCms\common\models\Column;
-use addons\KbitCms\common\models\Article;
 use Yii;
+use addons\KbitCms\common\models\Album;
 use common\components\Curd;
 use common\models\base\SearchModel;
-use yii\web\Controller;
 
 /**
- * ContentArticle
- *
- * Class ContentArticleController
- * @package backend\controllers
- */
-class ArticleController extends BaseController
+* Album
+*
+* Class AlbumController
+* @package addons\KbitCms\backend\controllers
+*/
+class AlbumController extends BaseController
 {
     use Curd;
     /**
@@ -23,9 +22,10 @@ class ArticleController extends BaseController
      */
     public $layout = "@addons/KbitCms/backend/views/layouts/addon";
     /**
-     * @var ContentArticle
-     */
-    public $modelClass = Article::class;
+    * @var Album
+    */
+    public $modelClass = Album::class;
+
 
 
     /**
@@ -112,6 +112,4 @@ class ArticleController extends BaseController
 
         return $this->message("删除失败", $this->redirect(['index','column_id' => $column_id]), 'error');
     }
-
-
 }

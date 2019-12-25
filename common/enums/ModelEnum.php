@@ -13,7 +13,7 @@ use Yii;
 class ModelEnum
 {
 
-    const MODEL_LINK = 'link';
+    // const MODEL_LINK = 'link';
     const MODEL_ARTICLE = 'article';
     const MODEL_PRODUCT = 'product';
     const MODEL_ALBUM = 'album';
@@ -29,7 +29,7 @@ class ModelEnum
     public static function getMap(): array
     {
         return [
-            self::MODEL_LINK => '链接',
+            // self::MODEL_LINK => '链接',
             self::MODEL_ARTICLE => '文章',
             self::MODEL_PRODUCT => '产品',
             self::MODEL_ALBUM => '图集',
@@ -41,7 +41,7 @@ class ModelEnum
     }
 
     public static $listExplain = [
-        self::MODEL_LINK => '链接',
+        // self::MODEL_LINK => '链接',
         self::MODEL_ARTICLE => '文章',
         self::MODEL_PRODUCT => '产品',
         self::MODEL_ALBUM => '图集',
@@ -55,7 +55,7 @@ class ModelEnum
     public static function getModelName() : array
     {
         return [
-            self::MODEL_LINK => 'Link',
+            // self::MODEL_LINK => 'Link',
             self::MODEL_ARTICLE => 'Article',
             self::MODEL_PRODUCT => 'Product',
             self::MODEL_ALBUM => 'Album',
@@ -71,7 +71,7 @@ class ModelEnum
      * @var array
      */
     public static $modelAction = [
-        self::MODEL_LINK => 'link',
+        //self::MODEL_LINK => 'link',
         self::MODEL_ARTICLE => 'article',
         self::MODEL_PRODUCT => 'product',
         self::MODEL_ALBUM => 'album',

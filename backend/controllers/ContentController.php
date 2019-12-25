@@ -127,6 +127,9 @@ class ContentController extends BaseController
             case ModelEnum::MODEL_JOB:
                 $url = ['job/index','column_id' => $id];
                 break;
+            case ModelEnum::MODEL_GUEST_BOOK:
+                $url = ['guest-book/index','column_id' => $id];
+                break;
         }
 
         return $this->redirect($url);
